@@ -1,0 +1,89 @@
+body{
+    background-image: url("../images/fundos_logo/trabalhostopbg.png");
+}
+
+#sub-menu{
+    margin-top: -80px;
+}
+
+.years{
+    float: left;
+    margin: 115px 40px 40px 0px;
+}
+
+.years li{
+    display: block;
+    font-size: 28px;
+}
+
+.years a{
+    text-decoration: none;
+    color: black;
+    font-family:'Lato Light';
+}
+
+.years a:hover{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.years div{
+    height: 53px;
+    width: 100px;
+}
+
+.years a{
+    position: relative;
+    left: 17px;
+    top: 10px;
+}
+
+.years .active a{
+    font-family: 'Lato Black';
+    font-weight: bolder;
+    font-style: oblique;
+   
+}
+
+.years .active{
+    background-image: url("../images/formas/formacolarosa.png");
+    background-repeat: no-repeat;
+}
+
+#galeria{
+    width: 75%;
+    margin-top: 150px;
+    float: right;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 322px 322px 322px; 
+    grid-row-gap: 38px;
+    padding: 10px;
+}
+
+#galeria div{
+    position: relative;
+    top: -3px;
+    width: 93%;
+    background-image: url("../images/formas/formabaseimagens.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#galeria div:before{
+    position: absolute;
+    content: '';
+    background-image: url("../images/formas/formacolaverde.png");
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 46px;
+    left: inherit;
+    top: inherit;
+    margin-left: 15px;
+    z-index: 1;
+}
+
+#galeria div img{
+    position: relative;
+    top: 8px;
+}

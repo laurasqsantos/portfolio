@@ -1,0 +1,43 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 1283px;
+    margin: auto;
+    font-family: 'Lato Light';
+}
+
+.menu-buttons {
+    float: right;
+    margin: 40px;
+}
+
+.menu-buttons a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.menu-buttons a:hover{
+    font-family:'Lato';
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#menu-box li {
+    display:inline-block;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-kerning: auto;
+    text-indent: 50px;
+}
+
+#menu-box #logo {
+    padding: 2%;
+}
+
+#menu-box li #actualpage{
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-style: oblique;
+}

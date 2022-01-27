@@ -1,0 +1,64 @@
+body{
+    background-image: url("../images/fundos_logo/sobremimbg.png")
+}
+
+#content {
+    margin-left: 43px;
+    margin-top: 50px;
+    height: 800px;
+}
+
+#content #left{
+    width: 23.5%; 
+    height: inherit;   
+    float: left;
+    
+    background-image: url("../images/formas/formasobremim.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#content #left:before{
+    position: absolute;
+    content: '';
+    background-image: url("../images/formas/formacolaverde.png");
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 46px;
+    left: inherit;
+    top: inherit;
+    margin-left: 15px;
+}
+
+#content #right{
+    width: 70%;
+    float: right;
+    margin-top: 110px; 
+}
+
+
+h1{
+    font-family: "Lato Black";
+    font-style: italic;
+    font-size: 28px;
+    line-height: 7px;
+    color: #557C58;
+}
+
+p{
+    font-family: "Lato Light";
+    font-style: italic;
+    font-size: 24px;
+    text-indent: 45px;
+    line-height: 26px;
+}
+
+#left a{
+    position: relative;
+    top: 224px;
+    left: 63px;
+
+    color: black;
+    font-family: "Lato Light";
+    font-size: 20px;
+}
