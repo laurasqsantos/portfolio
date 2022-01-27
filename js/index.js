@@ -8,3 +8,4 @@ setInterval(() => {
     counter = (counter + 1) % numberImages;
     document.body.style.backgroundImage = `url('images/laurasqsantos/recente${counter}.png')`;
 }, 3000);
+
