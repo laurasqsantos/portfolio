@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/main.css" type="text/css" rel="stylesheet">
+    <link href="styles/tapecaria_detalhes.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/tapecaria_detalhes.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" ref="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>laurasqsantos-textil2021</title>
+</head>
+
+<body class="nofilter">
+    <div id="menu-box">
+        <a href="#"><img src="./images/fundos_logo/logoLS.png" id="logo" /></a>
+        <ul class="menu-buttons">
+            <li>
+                <a href="index.html">laurasqsantos</a>
+            </li>
+            <li>
+                <a href="sobremim.html">sobre mim</a>
+            </li>
+            <li>
+                <a href="textil2021.html" id="actualpage">trabalhos</a>
+            </li>
+            <li>
+                <a href="loja.html">loja</a>
+            </li>
+        </ul>
+        <ul class="menu-buttons" id="sub-menu">
+            <li>
+                <a href="" id="actualpage">têxtil</a>
+            </li>
+            <li>
+                <a href="pintura2019.html">pintura</a>
+            </li>
+            <li>
+                <a href="">desenho</a>
+            </li>
+            <li>
+                <a href="">gravura</a>
+            </li>
+            <li>
+                <a href="">mosaico</a>
+            </li>
+            <li>
+                <a href="">3D</a>
+            </li>
+            <li>
+                <a href="">design</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="years">
+        <li>
+            <div class="2021 active">
+                <a href="#">2021</a>
+            </div>
+        </li>
+        <li>
+            <div class="2020">
+                <a href="textil2020.html">2020</a>
+            </div>
+        </li>
+        <li>
+            <div class="2019">
+                <a href="">2019</a>
+            </div>
+        </li>
+        <li>
+            <div class=" 2018">
+                <a href="">2018</a>
+            </div>
+        </li>
+        <li>
+            <div class="2017">
+                <a href="">2017</a>
+            </div>
+        </li>
+    </ul>
+    </div>
+    <div class="upper">
+        <div id="content">
+            <img src="images/tapecaria/tapecaria.png" />
+            <div>
+                <span id="header">Floresta Encantada</span>, 2021<br />
+                63 x 72 cm<br />
+                Tapeçaria - algodão e lã
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <div>
+            <h1>Detalhes</h1>
+        </div>
+        <div id="textil">
+            <div>
+                <img src="./images/tapecaria/detalhe1.png" onclick="currentSlide(1)">
+            </div>
+            <div>
+                <img src="./images/tapecaria/detalhe2.png" onclick="currentSlide(2)">
+            </div>
+            <div>
+                <img src="./images/tapecaria/detalhe3.png" onclick="currentSlide(3)">
+            </div>
+            <div>
+
+                <img src="./images/tapecaria/detalhe4.png" onclick="currentSlide(4)">
+            </div>
+            <div>
+                <img src="./images/tapecaria/detalhe5.png" onclick="currentSlide(5)">
+            </div>
+            <div>
+                <img src="./images/tapecaria/detalhe6.png" onclick="currentSlide(6)">
+            </div>
+        </div>
+
+    </div>
+    <div id="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+        
+            <img src="./images/tapecaria/detalhe1.png">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="./images/tapecaria/detalhe2.png">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="./images/tapecaria/detalhe3.png">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="./images/tapecaria/detalhe4.png">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="./images/tapecaria/detalhe5.png">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="./images/tapecaria/detalhe6.png">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- The dots/circles -->
+    <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div> -->
+</body>
+
+</html>
